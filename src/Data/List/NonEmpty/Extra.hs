@@ -15,7 +15,7 @@ module Data.List.NonEmpty.Extra(
 
 import           Data.Function
 import qualified Data.List.Extra as List
-import           Data.List.NonEmpty
+import           Data.List.NonEmpty hiding (compareLength)
 
 #if __GLASGOW_HASKELL__ <= 802
 import Data.Semigroup ((<>))
